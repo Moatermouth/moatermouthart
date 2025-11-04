@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moatermouth | Anjel Robinson</title>
+
+  <!-- ✅ Linked stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional: favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+</head>
+<body>
+  <!-- NAV -->
+  <div class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.png" alt="Moatermouth logo">
+        <span>MOATERMOUTH</span>
+      </a>
+      <div class="nav-links">
+        <a href="design-branding.html">Design & Branding</a>
+        <a href="illustration-visual.html">Illustration & Visual Dev</a>
+        <a href="fine-art.html">Fine Art</a>
+        <a href="print-promotional.html">Print & Promo</a>
+        <a href="animation-motion.html">Animation</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-main">
+        <img src="images/logo.png" alt="Moatermouth logo" class="hero-logo">
+        <h1>Anjel Robinson</h1>
+        <p class="hero-tagline">Visual Development Artist · Illustrator · Animator</p>
+        <p class="hero-meta">
+          Multidisciplinary artist focusing on character-driven storytelling, color, and mood.
+        </p>
+
+        <div class="hero-badges">
+          <span class="badge">Design & Branding</span>
+          <span class="badge">Illustration & Visual Dev</span>
+          <span class="badge">Fine Art Studies</span>
+          <span class="badge">Print & Promo</span>
+          <span class="badge">Animation & Motion</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="design-branding.html" class="btn-primary">View Work</a>
+          <a href="contact.html" class="btn-ghost">Get in touch</a>
+        </div>
+
+        <div class="hero-socials">
+          <span>Also on:</span>
+          <a href="https://www.instagram.com/moatermouth/" target="_blank">Instagram</a> ·
+          <a href="https://www.youtube.com/@moatermouth7141" target="_blank">YouTube</a> ·
+          <a href="https://www.linkedin.com/in/anjel-rob/" target="_blank">LinkedIn</a> ·
+          <a href="https://uc.joinhandshake.com/profiles/anjel-rob" target="_blank">Handshake</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-visual-inner">
+          <div class="hero-visual-title">Selected Work</div>
+          <p class="hero-visual-text">
+            A curated portfolio of branding, illustration, fine art, print, and animation projects
+            centered on expressive characters and visual storytelling.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Anjel Robinson · Moatermouth
+  </footer>
+</body>
+</html>
